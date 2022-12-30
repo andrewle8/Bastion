@@ -1,1 +1,1 @@
-Sidebar stuff
+* [APL](https://git.tinkr.site/4n0n/bastion/wiki/APL)
