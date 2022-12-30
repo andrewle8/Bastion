@@ -24,4 +24,4 @@
 * [Vector3](https://git.tinkr.site/4n0n/bastion/wiki/Vector3)
 
 ### Developer Information
-* [Rotation Development](https://git.tinkr.site/4n0n/bastion/wiki/pending)
+* [Rotation Development](https://git.tinkr.site/4n0n/bastion/wiki/Rotation-Development)
