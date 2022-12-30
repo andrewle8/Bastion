@@ -2,6 +2,8 @@ The Aura class is a helpful wrapper around World of Warcraft's built in Aura met
 
 It serves to try and provide simplicity to the developer by extracting common function calls into an encapsulated object, but the real performance gains come from it's integration Bastion's [AuraTable](https://git.tinkr.site/4n0n/bastion/wiki/AuraTable) class. 
 
+> It's worth noting that developers will very rarely define their own Aura instances. 
+
 ```lua
 
 function Aura:__index(k)
