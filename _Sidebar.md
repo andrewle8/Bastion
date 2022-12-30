@@ -1,4 +1,9 @@
+### Bastion Core
+
 * [Bastion](https://git.tinkr.site/4n0n/bastion/wiki/Bastion)
+
+### Modules
+
 * [APL](https://git.tinkr.site/4n0n/bastion/wiki/APL)
 * [Aura](https://git.tinkr.site/4n0n/bastion/wiki/Aura)
 * [AuraTable](https://git.tinkr.site/4n0n/bastion/wiki/AuraTable)
@@ -17,3 +22,6 @@
 * [Unit](https://git.tinkr.site/4n0n/bastion/wiki/Unit)
 * [UnitManager](https://git.tinkr.site/4n0n/bastion/wiki/UnitManager)
 * [Vector3](https://git.tinkr.site/4n0n/bastion/wiki/Vector3)
+
+### Developer Information
+* [Rotation Development](https://git.tinkr.site/4n0n/bastion/wiki/pending)
