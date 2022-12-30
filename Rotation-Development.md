@@ -16,6 +16,11 @@ local RestoModule = Bastion.Module:New('resto_druid')
 local Moonfire = Bastion.SpellBook:GetSpell(8921)
 local DefaultAPL = Bastion.APL:New('default')
 
+Moonfire:CastableIf(function(self)
+    return Target:Exists() and self:IsKnownAndUsable() and not Player:IsCastingOrChanneling()
+        and Player:CanSee(Target)
+end)
+
 Moonfire:Condition('refresh', function(self)
     return Target:GetAuras():FindMy(MoonfireAura):GetRemainingTime() <= 3
 end)
@@ -47,6 +52,11 @@ local RestoModule = Bastion.Module:New('resto_druid')
 
 local Moonfire = Bastion.SpellBook:GetSpell(8921)
 local DefaultAPL = Bastion.APL:New('default')
+
+Moonfire:CastableIf(function(self)
+    return Target:Exists() and self:IsKnownAndUsable() and not Player:IsCastingOrChanneling()
+        and Player:CanSee(Target)
+end)
 
 Moonfire:Condition('refresh', function(self)
     return Target:GetAuras():FindMy(MoonfireAura):GetRemainingTime() <= 3
