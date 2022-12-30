@@ -4,7 +4,7 @@ Most developers are already familiar with [APLs](https://git.tinkr.site/4n0n/bas
 
 Bastion offers you alternative rotation development methods such as Spell conditions, or enabling you to write logic trees like most already are comfortable with. 
 
-A few examples of how you may implement Spell conditions is as follows
+A few examples of how you may implement Spell conditions are as follows
 
 With an APL 
 
