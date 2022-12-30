@@ -9,6 +9,10 @@ A few examples of how you may implement Spell conditions is as follows
 With an APL 
 
 ```lua
+local Tinkr, Bastion = ...
+
+local RestoModule = Bastion.Module:New('resto_druid')
+
 local Moonfire = Bastion.SpellBook:GetSpell(8921)
 local DefaultAPL = Bastion.APL:New('default')
 
@@ -31,10 +35,16 @@ DefaultAPL:AddSpell(
 RestoModule:Sync(function()
     DefaultAPL:Execute()
 end)
+
+Bastion:Register(RestoModule)
 ```
 
 Callbacks
 ```lua
+local Tinkr, Bastion = ...
+
+local RestoModule = Bastion.Module:New('resto_druid')
+
 local Moonfire = Bastion.SpellBook:GetSpell(8921)
 local DefaultAPL = Bastion.APL:New('default')
 
@@ -51,10 +61,15 @@ RestoModule:Sync(function()
     Moonfire:Cast(Target, 'apply')
 end)
 
+Bastion:Register(RestoModule)
 ```
 
 Logic Tree
 ```lua
+local Tinkr, Bastion = ...
+
+local RestoModule = Bastion.Module:New('resto_druid')
+
 local Moonfire = Bastion.SpellBook:GetSpell(8921)
 
 RestoModule:Sync(function()
@@ -68,4 +83,6 @@ RestoModule:Sync(function()
         return Moonfire:Cast(Target)
     end
 end)
+
+Bastion:Register(RestoModule)
 ```
