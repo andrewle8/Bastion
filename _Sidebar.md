@@ -22,7 +22,8 @@
 * [Unit](https://git.tinkr.site/4n0n/bastion/wiki/Unit)
 * [UnitManager](https://git.tinkr.site/4n0n/bastion/wiki/UnitManager)
 * [Vector3](https://git.tinkr.site/4n0n/bastion/wiki/Vector3)
+* [MythicPlusUtils](https://git.tinkr.site/4n0n/bastion/wiki/MythicPlusUtils)
 
 ### Developer Information
 * [Rotation Development](https://git.tinkr.site/4n0n/bastion/wiki/Rotation-Development)
-* [MythicPlusUtils](https://git.tinkr.site/4n0n/bastion/wiki/MythicPlusUtils)
+* [End Game Utilities](https://git.tinkr.site/4n0n/bastion/wiki/End-Game-Utilities)
