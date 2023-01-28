@@ -9,3 +9,5 @@ function MythicPlusUtils:New()
 function MythicPlusUtils:ToggleDebuffLogging()
 function MythicPlusUtils:CastingCriticalKick(unit, percent)
 ```
+
+The current kick list for M+ can be found [here](https://git.tinkr.site/4n0n/bastion/src/branch/main/src/MythicPlusUtils/MythicPlusUtils.lua#L15)
