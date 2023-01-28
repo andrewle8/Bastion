@@ -1,0 +1,25 @@
+Bastion exposes some lists in some cases, this is the methods you're allotted from it. 
+
+```lua
+function List:New(from)
+function List:push(value)
+function List:pop()
+function List:peek()
+function List:count()
+function List:clear()
+function List:contains(value)
+function List:remove(value)
+function List:each(callback)
+function List:map(callback)
+function List:filter(callback)
+function List:reduce(callback, initialValue)
+function List:find(callback)
+function List:findIndex(callback)
+function List:sort(callback)
+function List:reverse()
+function List:clone()
+function List:concat(list)
+function List:join(separator)
+function List:toString()
+function List:__tostring()
+```

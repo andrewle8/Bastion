@@ -18,3 +18,9 @@ function Cacheable:Set(value)
 -- Set a new callback
 function Cacheable:SetCallback(cb)
 ```
+
+```lua
+    local cachedUnit = Bastion.Cacheable:New(unit, cb)
+```
+
+[Refreshable](https://git.tinkr.site/4n0n/bastion/wiki/Refreshable)

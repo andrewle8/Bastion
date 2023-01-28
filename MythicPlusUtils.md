@@ -7,5 +7,5 @@ To enable the logging you may type `/bastion mplus debuffs`
 ```lua
 function MythicPlusUtils:New()
 function MythicPlusUtils:ToggleDebuffLogging()
-function MythicPlusUtils:HasCriticalDispel(unit)
+function MythicPlusUtils:CastingCriticalKick(unit, percent)
 ```
