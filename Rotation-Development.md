@@ -13,7 +13,9 @@ local Tinkr, Bastion = ...
 
 local RestoModule = Bastion.Module:New('resto_druid')
 
-local Moonfire = Bastion.SpellBook:GetSpell(8921)
+local SpellBook = Bastion.SpellBook:New()
+
+local Moonfire = SpellBook:GetSpell(8921)
 local DefaultAPL = Bastion.APL:New('default')
 
 Moonfire:CastableIf(function(self)
@@ -50,7 +52,9 @@ local Tinkr, Bastion = ...
 
 local RestoModule = Bastion.Module:New('resto_druid')
 
-local Moonfire = Bastion.SpellBook:GetSpell(8921)
+local SpellBook = Bastion.SpellBook:New()
+
+local Moonfire = SpellBook:GetSpell(8921)
 local DefaultAPL = Bastion.APL:New('default')
 
 Moonfire:CastableIf(function(self)
@@ -80,7 +84,9 @@ local Tinkr, Bastion = ...
 
 local RestoModule = Bastion.Module:New('resto_druid')
 
-local Moonfire = Bastion.SpellBook:GetSpell(8921)
+local SpellBook = Bastion.SpellBook:New()
+
+local Moonfire = SpellBook:GetSpell(8921)
 
 RestoModule:Sync(function()
     if Target:Exists() and Moonfire:IsKnownAndUsable() and not Player:IsCastingOrChanneling() and Player:CanSee(Target)
