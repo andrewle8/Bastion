@@ -63,7 +63,7 @@ local FlashHeal = SpellBook:GetSpell(2061)
 -- This is useful for caching common spells that you might not actually cast, and to avoid needless spell creation inline
 local FlashHeal = Bastion.Globals.SpellBook:GetSpell(2061)
 
-local Dependable, OtherExports = self:Import('Dependable')
+local Dependable, OtherExports = Bastion:Import('Dependable')
 
 Dependable:Test(OtherExports.Test)
 
@@ -74,4 +74,39 @@ ExampleModule:Sync(function()
 end)
 
 Bastion:Register(ExampleModule)
+```
+
+Modules aren't the only place you can import Libraries, Libraries allow for other Libraries to be imported inside of them, and they attempt to detect Circular Dependency errors dynamically. 
+
+Here's an example of how to import other Libraries into a Library. 
+
+```lua
+-- scripts/Libraries/ExampleLibrary.lua
+
+local Tinkr, Bastion = ...
+
+Bastion:RegisterLibrary(Bastion.Library:New({
+    name = 'AdvancedMath',
+    exports = {
+        default = function(self) -- Function exports are called when the library is loaded
+            -- Return default first, and then the remaining exports
+            local Dependable, OtherExports = self:Import('Dependable')
+
+            -- local CircularDependency = self:Import('Circular') -- Causes a circular dependency error
+
+            Dependable:Test(OtherExports.Test)
+
+            local AdvancedMath = {}
+
+            AdvancedMath.__index = AdvancedMath
+
+            function AdvancedMath:Add(a, b)
+                return a + b
+            end
+
+            return AdvancedMath
+        end
+    }
+}))
+
 ```
