@@ -30,6 +30,7 @@
 - [NotificationsList](https://git.tinkr.site/4n0n/bastion/wiki/NotificationsList)
 - [ObjectManager](https://git.tinkr.site/4n0n/bastion/wiki/ObjectManager)
 - [Refreshable](https://git.tinkr.site/4n0n/bastion/wiki/Refreshable)
+- [Library](https://git.tinkr.site/4n0n/bastion/wiki/Library)
 
 ### Developer Information
 
