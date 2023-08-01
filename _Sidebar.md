@@ -31,6 +31,7 @@
 - [ObjectManager](https://git.tinkr.site/4n0n/bastion/wiki/ObjectManager)
 - [Refreshable](https://git.tinkr.site/4n0n/bastion/wiki/Refreshable)
 - [Library](https://git.tinkr.site/4n0n/bastion/wiki/Library)
+- [Globals](https://git.tinkr.site/4n0n/bastion/wiki/Globals)
 
 ### Developer Information
 
