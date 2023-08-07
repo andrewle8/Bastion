@@ -35,5 +35,7 @@
 
 ### Developer Information
 
+- [Issue Template](https://git.tinkr.site/Bastion/Bastion/wiki/Issues)
+- [Pull Requests](https://git.tinkr.site/Bastion/Bastion/wiki/Pull-Requests)
 - [Rotation Development](https://git.tinkr.site/Bastion/bastion/wiki/Rotation-Development)
 - [End Game Utilities](https://git.tinkr.site/Bastion/bastion/wiki/End-Game-Utilities)
